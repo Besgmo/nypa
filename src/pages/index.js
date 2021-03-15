@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, Section } from "@quarkly/components";
+import { Override, StackItem, Stack, Section } from "@quarkly/components";
+import { FiSettings } from "react-icons/fi";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -16,9 +17,23 @@ export default (() => {
 		</Helmet>
 		<Section>
 			<Override slot="SectionContent" sm-font="32px sans-serif" sm-width="50% content-box" />
-			<Text sm-width="50% content-box" sm-text-align="left" sm-font="bold 32px ">
-				Some text
-			</Text>
+			<Stack>
+				{"    "}
+				<StackItem width="50%" display="flex">
+					{"        "}
+					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block" sm-font="--headline2">
+						Dashboard
+					</Text>
+					{"    "}
+				</StackItem>
+				{"    "}
+				<StackItem width="50%" display="flex">
+					<Override slot="StackItemContent" sm-padding="50% 0px 50% 0px" />
+					{"        "}
+					<Icon category="fi" icon={FiSettings} />
+					{"    "}
+				</StackItem>
+			</Stack>
 		</Section>
 		<Link
 			font={"--capture"}
