@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Section } from "@quarkly/components";
@@ -15,6 +15,10 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Section sm-height="100% border-box" />
+		<Button>
+			<Link href="awwwards.com" />
+			Button
+		</Button>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

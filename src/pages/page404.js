@@ -260,7 +260,6 @@ export default (() => {
 				<StackItem width="50%" display="flex" sm-flex-direction="row-reverse">
 					{"        "}
 					<Icon
-						href=""
 						category="fi"
 						icon={FiChevronRight}
 						sm-color="#ffffff"
