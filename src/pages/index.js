@@ -32,7 +32,14 @@ export default (() => {
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem width="50%" display="flex" quarkly-title="Menu" sm-text-align="right">
+				<StackItem
+					width="50%"
+					display="flex"
+					quarkly-title="Menu"
+					sm-text-align="right"
+					sm-flex-direction="row"
+				>
+					<Override slot="StackItemContent" />
 					{"        "}
 					<Icon
 						href=""
@@ -41,6 +48,9 @@ export default (() => {
 						sm-color="#ffffff"
 						size="40px"
 						sm-align-self="center"
+						sm-position="static"
+						sm-justify-content="flex-end"
+						sm-flex="inherit"
 					/>
 					{"    "}
 				</StackItem>
