@@ -238,7 +238,7 @@ export default (() => {
 			</Text>
 		</Section>
 		<Section quarkly-title="Version-app" sm-padding="0 0 24px 0" sm-flex-direction="row">
-			<Stack sm-flex-direction="row">
+			<Stack sm-flex-direction="row" href="www.awwwards.com">
 				{"    "}
 				<StackItem width="50%" display="flex" sm-padding="16px 16px 5px 16px">
 					<Override slot="StackItemContent" sm-flex-direction="row" />
