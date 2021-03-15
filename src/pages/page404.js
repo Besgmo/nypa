@@ -335,6 +335,9 @@ export default (() => {
 				sm-active-background="#FF5134"
 				sm-active-color="#ffffff"
 				sm-width="100% border-box"
+				sm-focus-opacity="1"
+				sm-focus-cursor="none"
+				sm-focus-box-shadow="0 0 0 0 #FF5134"
 			>
 				Unpair device
 			</Button>
