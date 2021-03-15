@@ -57,7 +57,7 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Section>
-			<Text sm-color="#ffffff" sm-font="--headline1" sm-text-align="center">
+			<Text sm-color="--neon" sm-font="--headline1" sm-text-align="center">
 				Some text
 			</Text>
 		</Section>
@@ -74,7 +74,6 @@ export default (() => {
 						sm-color="#ECBB0C"
 						sm-padding="0px 0px 0px 6px"
 						sm-font="--headline3"
-						sm-display="block"
 					>
 						Notification from device
 					</Text>
