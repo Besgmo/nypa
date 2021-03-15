@@ -6,7 +6,8 @@ export default {
 			"name": "root",
 			"children": [
 				"6049d8478db767001e87ce59",
-				"6049d8478db767001e87ce5b"
+				"6049d8478db767001e87ce5b",
+				"604f5385465b2a001e0edbf9"
 			]
 		},
 		"6049d8478db767001e87ce59": {
@@ -18,6 +19,11 @@ export default {
 			"id": "6049d8478db767001e87ce5b",
 			"name": "index",
 			"pageUrl": "index"
+		},
+		"604f5385465b2a001e0edbf9": {
+			"id": "604f5385465b2a001e0edbf9",
+			"pageUrl": "oneboarding",
+			"name": "Oneboarding"
 		}
 	},
 	"mode": "production",

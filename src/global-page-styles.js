@@ -8,6 +8,9 @@ const pageStyles = {
     },
     "index": {
         "background": "#111111"
+    },
+    "oneboarding": {
+        "background": "#111111"
     }
 };
 
