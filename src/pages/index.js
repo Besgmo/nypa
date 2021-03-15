@@ -61,7 +61,8 @@ export default (() => {
 				Some text
 			</Text>
 		</Section>
-		<Section>
+		<Section sm-color="#ECBB0C">
+			<Override slot="SectionContent" sm-color="#ECBB0C" />
 			<Stack>
 				{"        "}
 				<StackItem width="100%" display="flex" sm-align-self="center" sm-width="100% border-box">
