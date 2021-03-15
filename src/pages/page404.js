@@ -31,9 +31,6 @@ export default (() => {
 				>
 					Back
 				</Text>
-				<Link href="#">
-					Some text
-				</Link>
 				{"            "}
 			</StackItem>
 		</Section>
