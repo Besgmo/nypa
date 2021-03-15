@@ -252,7 +252,7 @@ export default (() => {
 						sm-font="--base"
 						sm-padding="0px 0px 0px 10px"
 					>
-						Ask a question
+						Ask a question{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -264,12 +264,13 @@ export default (() => {
 						category="fi"
 						icon={FiChevronRight}
 						sm-color="#ffffff"
-						size="40px"
+						size="24px"
 						sm-align-self="center"
 						sm-position="static"
 						sm-justify-content="flex-end"
 						sm-flex="inherit"
 						sm-width="32px"
+						color="#979797"
 					/>
 					{"    "}
 				</StackItem>
