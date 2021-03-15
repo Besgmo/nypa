@@ -197,7 +197,7 @@ export default (() => {
 		<Section quarkly-title="Version-app" sm-padding="0 0 24px 0">
 			<Stack sm-flex-direction="column">
 				{"    "}
-				<StackItem width="50%" display="flex" sm-padding="16px 16px 5px 16px">
+				<StackItem width="50%" display="flex" sm-padding="16px 16px 5px 16px" sm-color="#ECBB0C">
 					<Override slot="StackItemContent" sm-flex-direction="row" />
 					{"        "}
 					<Icon category="fi" icon={FiUnderline} />
