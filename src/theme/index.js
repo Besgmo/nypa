@@ -56,7 +56,9 @@ export default {
 		"headline2": "normal 900 32px/1.2 --fontFamily-sansHelvetica",
 		"headline3": "normal 500 20px/1.2 --fontFamily-sansHelvetica",
 		"base": "normal 300 16px/1.5 --fontFamily-sansHelvetica",
-		"lead": "normal 300 20px/1.5 --fontFamily-sansHelvetica"
+		"lead": "normal 300 20px/1.5 --fontFamily-sansHelvetica",
+		"medium": "600 18px/24 undefined",
+		"base1": "normal 600 18px/1.5 --fontFamily-sansHelvetica"
 	},
 	"boxShadow": {
 		"m": "0 4px 5px -1px rgba(0, 0, 0, 0.1)",
