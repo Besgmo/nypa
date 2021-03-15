@@ -23,7 +23,9 @@ export default {
 	"mode": "production",
 	"projectType": "create-react-app",
 	"site": {
-		"styles": {},
+		"styles": {
+			"background": "#111111"
+		},
 		"seo": {}
 	}
 }

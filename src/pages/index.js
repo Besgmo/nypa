@@ -21,7 +21,13 @@ export default (() => {
 				{"    "}
 				<StackItem width="50%" display="flex">
 					{"        "}
-					<Text font="--lead" margin="0px 0px 0px 0px" display="inline-block" sm-font="--headline2">
+					<Text
+						font="--lead"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						sm-font="--headline2"
+						sm-color="#ffffff"
+					>
 						Dashboard
 					</Text>
 					{"    "}
@@ -30,7 +36,13 @@ export default (() => {
 				<StackItem width="50%" display="flex">
 					<Override slot="StackItemContent" sm-padding="50% 0px 50% 0px" />
 					{"        "}
-					<Icon category="fi" icon={FiSettings} />
+					<Icon
+						category="fi"
+						icon={FiSettings}
+						sm-color="#ffffff"
+						sm-width="40px"
+						sm-height="40px"
+					/>
 					{"    "}
 				</StackItem>
 			</Stack>
