@@ -4,7 +4,7 @@ import { Theme, Link, Text, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
-import { FiMoreVertical } from "react-icons/fi";
+import { FiMoreVertical, FiBell } from "react-icons/fi";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -39,7 +39,6 @@ export default (() => {
 					sm-text-align="right"
 					sm-flex-direction="row"
 				>
-					<Override slot="StackItemContent" />
 					{"        "}
 					<Icon
 						href=""
@@ -55,6 +54,32 @@ export default (() => {
 					{"    "}
 				</StackItem>
 				{"    "}
+			</Stack>
+		</Section>
+		<Section>
+			<Text sm-color="#ffffff" sm-font="--headline1" sm-text-align="center">
+				Some text
+			</Text>
+		</Section>
+		<Section>
+			<Stack>
+				{"        "}
+				<StackItem width="100%" display="flex" sm-align-self="center" sm-width="100% border-box">
+					<Override slot="StackItemContent" sm-width="50% content-box" />
+					<Icon category="fi" icon={FiBell} sm-align-self="center" />
+					<Text
+						font="--lead"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						sm-color="#ECBB0C"
+						sm-padding="0px 0px 0px 6px"
+						sm-font="--headline3"
+						sm-display="block"
+					>
+						Notification from device
+					</Text>
+					{"            "}
+				</StackItem>
 			</Stack>
 		</Section>
 		<Link
