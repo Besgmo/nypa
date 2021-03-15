@@ -17,7 +17,7 @@ export default {
 		},
 		"6049d8478db767001e87ce5b": {
 			"id": "6049d8478db767001e87ce5b",
-			"name": "index",
+			"name": "Dashboard",
 			"pageUrl": "index"
 		},
 		"604f5385465b2a001e0edbf9": {
