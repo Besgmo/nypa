@@ -1,10 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section, Menu } from "@quarkly/components";
-import { FiMoreVertical, FiBell } from "react-icons/fi";
+import { FiMoreVertical, FiSettings, FiBell } from "react-icons/fi";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -41,10 +41,10 @@ export default (() => {
 				>
 					{"        "}
 					<Icon
-						href=""
+						href="/oneboarding"
 						category="fi"
 						icon={FiMoreVertical}
-						sm-color="#ffffff"
+						sm-color="rgba(255, 255, 255, 0)"
 						size="40px"
 						sm-align-self="center"
 						sm-position="static"
@@ -52,6 +52,11 @@ export default (() => {
 						sm-flex="inherit"
 						sm-width="32px"
 					/>
+					<Button sm-background="0" sm-align-self="center" sm-flex="initial" sm-padding="8px 0 8px 24px">
+						<Icon category="fi" icon={FiSettings} sm-justify-content="flex-end" />
+						<div />
+						<div />
+					</Button>
 					{"    "}
 				</StackItem>
 				{"    "}
@@ -83,7 +88,11 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Menu />
+		<Menu>
+			<Override slot="link-404">
+				Settings
+			</Override>
+		</Menu>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
