@@ -41,7 +41,7 @@ export default (() => {
 				>
 					{"        "}
 					<Icon
-						href=""
+						href="/oneboarding"
 						category="fi"
 						icon={FiMoreVertical}
 						sm-color="#ffffff"
