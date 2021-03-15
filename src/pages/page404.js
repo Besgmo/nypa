@@ -320,10 +320,12 @@ export default (() => {
 			<Button
 				sm-border-color="#FF5134"
 				sm-background="00000"
-				sm-border-width="1px"
+				sm-border-width="2px"
 				sm-border-radius="8px"
 				sm-height="54px"
 				sm-color="#FF5134"
+				sm-border-style="solid"
+				sm-font="--base1"
 			>
 				Unpair device{"\n\n"}
 			</Button>
