@@ -59,7 +59,7 @@ export default (() => {
 		</Section>
 		<Section>
 			<Text sm-color="--neon" sm-font="--headline1" sm-text-align="center">
-				Some text
+				1230 ML
 			</Text>
 		</Section>
 		<Section sm-color="#ECBB0C">
