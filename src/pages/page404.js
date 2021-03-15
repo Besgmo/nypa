@@ -60,7 +60,7 @@ export default (() => {
 					{"    "}
 				</StackItem>
 				{"    "}
-				<StackItem width="50%" display="flex" sm-padding="0 16px 16px 40px">
+				<StackItem width="100%" display="flex" sm-padding="0 16px 16px 40px">
 					{"        "}
 					<Text
 						font="--lead"
@@ -97,7 +97,7 @@ export default (() => {
 					{"    "}
 				</StackItem>
 				{"    "}
-				<StackItem width="50%" display="flex" sm-padding="0 16px 16px 40px">
+				<StackItem width="100%" display="flex" sm-padding="0 16px 16px 40px">
 					{"        "}
 					<Text
 						font="--lead"
@@ -134,7 +134,7 @@ export default (() => {
 					{"    "}
 				</StackItem>
 				{"    "}
-				<StackItem width="50%" display="flex" sm-padding="0 16px 16px 40px">
+				<StackItem width="100%" display="flex" sm-padding="0 16px 16px 40px">
 					{"        "}
 					<Text
 						font="--lead"
@@ -154,7 +154,7 @@ export default (() => {
 		<Section quarkly-title="Version-app" sm-padding="0 0 24px 0">
 			<Stack sm-flex-direction="column">
 				{"    "}
-				<StackItem width="50%" display="flex" sm-padding="16px 16px 5px 16px">
+				<StackItem width="100%" display="flex" sm-padding="16px 16px 5px 16px">
 					<Override slot="StackItemContent" sm-flex-direction="row" />
 					{"        "}
 					<Icon category="fi" icon={FiArrowUpCircle} color="#ffffff" sm-color="#5AC8FA" />
@@ -197,7 +197,7 @@ export default (() => {
 		<Section quarkly-title="Version-app" sm-padding="0 0 24px 0">
 			<Stack sm-flex-direction="column">
 				{"    "}
-				<StackItem width="50%" display="flex" sm-padding="16px 16px 5px 16px" sm-color="#ECBB0C">
+				<StackItem width="100%" display="flex" sm-padding="16px 16px 5px 16px" sm-color="#ECBB0C">
 					<Override slot="StackItemContent" sm-flex-direction="row" />
 					{"        "}
 					<Icon category="fi" icon={FiUnderline} />
@@ -252,7 +252,7 @@ export default (() => {
 						sm-font="--base"
 						sm-padding="0px 0px 0px 10px"
 					>
-						Ask a question{"\n\n"}
+						Ask a question
 					</Text>
 					{"    "}
 				</StackItem>
@@ -316,7 +316,13 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Section>
-			<Override slot="SectionContent" sm-border-radius="8px" sm-border-color="#FF5134" sm-border-width="1px" />
+			<Override
+				slot="SectionContent"
+				sm-border-radius="8px"
+				sm-border-color="#FF5134"
+				sm-border-width="1px"
+				sm-width="100% border-box"
+			/>
 			<Button
 				sm-border-color="#FF5134"
 				sm-background="00000"
@@ -326,8 +332,11 @@ export default (() => {
 				sm-color="#FF5134"
 				sm-border-style="solid"
 				sm-font="--base1"
+				sm-active-background="#FF5134"
+				sm-active-color="#ffffff"
+				sm-width="100% border-box"
 			>
-				Unpair device{"\n\n"}
+				Unpair device
 			</Button>
 		</Section>
 		<Link
