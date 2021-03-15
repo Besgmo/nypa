@@ -50,6 +50,7 @@ export default (() => {
 						sm-position="static"
 						sm-justify-content="flex-end"
 						sm-flex="inherit"
+						sm-width="32px"
 					/>
 					{"    "}
 				</StackItem>

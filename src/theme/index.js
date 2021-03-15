@@ -53,8 +53,8 @@ export default {
 	},
 	"font": {
 		"headline1": "normal 900 72px/1.2 --fontFamily-googleMontserrat",
-		"headline2": "normal 900 42px/1.2 --fontFamily-sansHelvetica",
-		"headline3": "normal 500 28px/1.2 --fontFamily-sansHelvetica",
+		"headline2": "normal 900 32px/1.2 --fontFamily-sansHelvetica",
+		"headline3": "normal 500 20px/1.2 --fontFamily-sansHelvetica",
 		"base": "normal 300 16px/1.5 --fontFamily-sansHelvetica",
 		"lead": "normal 300 20px/1.5 --fontFamily-sansHelvetica"
 	},
