@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, StackItem, Stack, Section } from "@quarkly/components";
+import { Override, StackItem, Stack, Section, Menu } from "@quarkly/components";
 import { FiMoreVertical, FiBell } from "react-icons/fi";
 export default (() => {
 	return <Theme theme={theme}>
@@ -83,6 +83,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
+		<Menu />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
